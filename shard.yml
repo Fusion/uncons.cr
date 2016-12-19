@@ -1,0 +1,13 @@
+name: uncons
+version: 0.1.0
+
+authors:
+  - Chris F Ravenscroft <chris@voilaweb.com>
+
+crystal: 0.19.4
+
+license: MIT
+
+dependencies:
+  immutable:
+    github: lucaong/immutable
