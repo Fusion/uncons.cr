@@ -6,6 +6,9 @@ It's a toy implementation that adds path copying to the 'left side' of the hybri
 implemented by Luca. It fits my need for a proper 'uncons' mechanism but I would 
 not recommend using it against really big data structures.
 
+Speaking of functional programming, a quick re-read shows that it is unlikely that 
+LLVM will be able to perform tail recursion optimization on the library itself.
+
 If you are interested in persistent data structures, I would recommend researching 
 balanced binary trees and reading any publication by Chris Okasaki.
 
